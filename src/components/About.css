@@ -1,0 +1,27 @@
+
+/* In App.css */
+#width {
+  height: 24vh;
+  min-height: 130px;
+}
+
+ 
+@media (max-width: 1100px) {
+  #width {
+    height: 13vh;
+    min-height: 140px;
+  }
+}
+
+ @media (max-width: 600px) {
+  #width {
+     height: 5vh;
+    min-height: 100px;
+  }
+} 
+ @media (max-width: 400px) {
+  #width {
+     height: 3vh;
+    min-height: 90px;
+  }
+} 
